@@ -26,7 +26,7 @@ void draw() {
     }
     j++;
   }
-  System.out.println(c);
+  //System.out.println(c);
 }
 
 void keyPressed() { // currently has no function
