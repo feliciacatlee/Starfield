@@ -11,10 +11,12 @@ void setup() {
 }
 
 void draw() {
-  background(0);
+  //background(0, 0);
+  fill(0, 80);
+  rect(0, 0, 500, 500);
 
   if (mousePressed || keepLooping) {
-    if (j <= 150) keepLooping = true;
+    if (j <= 200) keepLooping = true;
     else {
       keepLooping = false;
       j = 0;
@@ -26,7 +28,7 @@ void draw() {
     }
     j++;
   }
-  //System.out.println(c);
+  System.out.println(c); //
 }
 
 void keyPressed() { // currently has no function
